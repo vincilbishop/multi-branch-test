@@ -1,19 +1,26 @@
 export class Car {
 
     drive() {
-        // This is a function that will drive
-        return {}
+        return {
+            result: true
+        }
     }
 
     stop() {
-        // This funtion will stop
+        return {
+            result: true
+        }
     }
 
     turnLeft() {
-        // This function will turn left
+        return {
+            result: true
+        }
     }
 
     turnRight() {
-        // This function will turn right
+        return {
+            result: true
+        }
     }
 }
